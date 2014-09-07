@@ -5,7 +5,7 @@ int main(int argc, char* argv[]) {
 
 	time_t time = 0x7FFFFFFF;
 
-	printf("Isoin: %s\n", asctime(gmtime(&time)));
+	printf("Largest time_t value:\n%s\n", asctime(gmtime(&time)));
 
 	return 0;
-}net
+}
